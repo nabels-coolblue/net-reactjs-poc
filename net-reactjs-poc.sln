@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E3C44B3-9016-4CB4-BD19-579C79A0CEAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8A4223F-57F8-4378-91DE-8BB19C366E4B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "net-reactjs-poc", "src\net-reactjs-poc\net-reactjs-poc.xproj", "{A3F952CF-B804-4301-A243-9D69C77725C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3F952CF-B804-4301-A243-9D69C77725C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F952CF-B804-4301-A243-9D69C77725C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F952CF-B804-4301-A243-9D69C77725C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F952CF-B804-4301-A243-9D69C77725C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3F952CF-B804-4301-A243-9D69C77725C3} = {8E3C44B3-9016-4CB4-BD19-579C79A0CEAA}
+	EndGlobalSection
+EndGlobal
